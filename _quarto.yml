@@ -1,13 +1,17 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "SenS"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: Second page
 
 format:
   html:
